@@ -47,7 +47,7 @@ public class RequestController {
             default:
                 break;
         }
-        return Float.toString(ans);
+        return "Operation: " + operation + " Total: " + ans;
     }
 
 }
